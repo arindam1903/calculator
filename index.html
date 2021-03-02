@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td> <input id='screen' disabled value='0'/></td>
+                <td><button onclick="clearAll()">clear</button></td>
+                <td><button onclick="remove()" >C</button></td>
+                
+            </tr>
+            <tr>
+                <td><button id='button' onclick="display(value)" value="1">1</button></td>
+                <td><button id='button' onclick="display(value)" value="2">2</button></td>
+                <td><button id='button' onclick="display(value)" value="3">3</button></td>
+                <td><button id='button' onclick="display(value)" value="*">X</button></td>
+              
+            </tr>
+            <tr>
+                <td><button id='button' onclick="display(value)" value="4">4</button></td>
+                <td><button id='button' onclick="display(value)" value="5">5</button></td>
+                <td><button id='button' onclick="display(value)" value="6">6</button></td>
+                <td><button id='button' onclick="display(value)" value="/">/</button></td>
+            
+                
+            </tr>
+            <tr>
+                <td><button id='button' onclick="display(value)" value="7">7</button></td>
+                <td><button id='button' onclick="display(value)" value="8">8</button></td>
+                <td><button id='button' onclick="display(value)" value="9">9</button></td>
+                <td><button id='button' onclick="display(value)" value="+">+</button></td>
+            </tr>
+                
+            <tr>
+                <td><button id='button' onclick="display(value)" value="0">0</button></td>
+                <td><button id='button' onclick="display(value)" value=".">.</button></td>
+                <td><button id='button' onclick="display(value)" value="-">-</button></td>
+              
+                <td><button onclick="result()">=</button></td>
+            </tr>
+        </table>
+        <script src='index.js'></script>
+    </body>
+</html>
